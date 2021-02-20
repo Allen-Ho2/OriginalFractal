@@ -7,7 +7,7 @@ public void draw(){
   myFractal(250,250,250);
 }
 public void myFractal(float x, float y, float size){
- rect(x,y,size/2,size/2);
+ square(x,y,size/2,size/2);
  fill(255,200,0);
   if(size>5){
     myFractal(x-size/2,y,size/2);
